@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors')
 
-const token = '5688884825:AAHMjXv1xpcLmfBkqoqwiWOxFjtIL2wZTYA'
+const token = 'proccess.env.BOT_TOKEN'
 const webAppUrl = 'https://velvety-cactus-c32f94.netlify.app/'
 
 const bot = new TelegramBot(token, {polling: true});
